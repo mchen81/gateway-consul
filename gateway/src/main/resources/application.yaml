@@ -19,6 +19,10 @@ spring:
           predicates:
             - Path=/api/**
           filters:
+            - name: Hystrix
+              args:
+                name: hystrixFx
+                fallbackUri: forward:/fallback
             - RewritePath=/(?<path>.*), /$\{path}
 
 management:
