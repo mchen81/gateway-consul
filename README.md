@@ -37,10 +37,10 @@ To stop the services run the following command:
 ./stop-services.sh
 ```
 
-### Implementation
-API gateway and both services are running
-![](https://github.com/mchen81/gateway-consul/blob/main/screenshots/Screen%20Shot%202021-04-01%20at%2011.14.56%20PM.png)
-Service1 is down
-![](https://github.com/mchen81/gateway-consul/blob/main/screenshots/Screen%20Shot%202021-04-01%20at%2011.15.11%20PM.png)
-Service1 is running but service2 is down
-![](https://github.com/mchen81/gateway-consul/blob/main/screenshots/Screen%20Shot%202021-04-03%20at%2012.05.13%20AM.png)
+## Implementation
+**API gateway and both services are running**
+![](/screenshots/ServicesRunning.png)
+**Service1 is down**
+![](/screenshots/Service1Dead.png)
+**Service1 is running but service2 is down**
+![](/screenshots/Service2Dead.png)
