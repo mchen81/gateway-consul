@@ -7,7 +7,6 @@ import io.micronaut.retry.annotation.Recoverable
 import io.reactivex.Flowable
 
 @Fallback
-@Recoverable
 class Service2ClientFallbackService implements Service2Client{
     @Override
     Flowable<ArrayList<Book>> findBooks() {
